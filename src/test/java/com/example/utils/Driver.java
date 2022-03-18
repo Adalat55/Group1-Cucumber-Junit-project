@@ -9,7 +9,7 @@ public class Driver {
 
     private Driver(){}
 
-     protected static WebDriver driver;
+     private static WebDriver driver;
 
     public static WebDriver getDriver(){
 
